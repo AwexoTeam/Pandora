@@ -1,0 +1,157 @@
+ManifestFileVersion: 0
+CRC: 341351289
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 89a94aafbd0ccb5548c43ccbfd379e73
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9c27b8b3d71245bd7ecea669fb7b3a36
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Cart-Push-Release.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Chop-Vertical.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Belt-Away.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Crawl-Crawl.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Cart-Push-Idle.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Carry-Idle.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Climb-On-Top.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Chop-Horizontal-Upper.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Saw-Finish.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Cart-Push-Backward.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Take.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Climb-On-Top_S.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Kneel-Down.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Kneel-Hammer.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@PushPull-Left.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Sickle-Use.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Plant.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Chisel.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Chair-Idle.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Laydown-Laydown.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@WalkBackward-Left.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@WalkBackward.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Idle.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Rake-Use.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Handoff.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Carry-Overhead-Throw.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Drop.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Climb-Idle.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Kneel-Stand.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Back-Away.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Chop-Diagonal.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Chair-Drink.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Crawl-Idle.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@PushPull-Push_S.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Fishing-Idle.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Eat.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@PushPull-Left_S.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Carry-Pickup.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Climb-Down.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Gather-Kneeling.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Dig-Idle.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@PushPull-Grab.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Fishing-Reel.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Carry-Overhead-Idle.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Climb-Off-Top_S.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Chair-Stand.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@WalkForward-Left.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@PushPull-Idle.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Idle.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@WalkBackward-Right.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Carry-WalkForward.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Recieve.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Climb-Up.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@PushPull-Right.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@PushPull-Push.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Whittle.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Climb-Off-Top.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Chair-Sit.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Dig-Scoop.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Cart-Push-Forward.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Carry-Recieve.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Belt.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Chop-Vertical-Upper.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Pickup.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Water.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Climb-Start.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Carry-Throw.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@WalkRight.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Hammer-Table.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Carry-Overhead-Pickup.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Wave1.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Cheer1.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Kneel-Idle.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Dig-Start.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Carry-Idle.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Saw-Sawing.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Paint-Refill.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Gather.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Chop-Idle.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Run.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Carry-Overhead-Walk.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@WalkLeft.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Dig-Finish.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Laydown-Sleep.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Cheer3.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Cart-Push-Grab.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Climb-Off-Bottom.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Chop-Ground.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Climb-Down_S.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@WalkForward.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Chop-Finish.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Chop-Ceiling.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Cheer2.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Chair-Talk1.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Lumber-Pickup.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Putdown.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Paint-Wall.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Chop-Horizontal.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@PushPull-Pull.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Lumber-Putdown.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Carry-Handoff.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Pray.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Drink.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Lumber-Walk.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Use.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Idle-Bored1.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Fear.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-PullUp.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Lumber-Idle.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Crawl-Getup.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Fishing-Cast.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@PushPull-Right_S.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Carry-Putdown.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Laydown-Getup.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@PushPull-Release.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Crawl-Start.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Hammer-Wall.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Back.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Saw-Start.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-WalkForward.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@PushPull-Pull_S.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@WalkForward-Right.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Chair-Eat.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Item-Carry-WalkForward.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Climb-Up_S.FBX
+- Assets/Crafting Mecanim Animation Pack/Animations/Crafter@Chop-Start.FBX
+Dependencies: []

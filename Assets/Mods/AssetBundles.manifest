@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 2438375756
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: baseicons
+      Dependencies: {}
+    Info_1:
+      Name: basecraftinganimation
+      Dependencies: {}
