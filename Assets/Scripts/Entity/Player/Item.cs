@@ -21,7 +21,7 @@ public struct Item {
         display_name = "";
         maxStack = 0;
         item_stats = null;
-        functions = null;
+        functions = new List<IItemFunction>();
         model = null;
     }
 

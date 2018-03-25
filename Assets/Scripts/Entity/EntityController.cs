@@ -16,15 +16,16 @@ public class EntityController : MonoBehaviour {
     public Status status;
     public InventoryHandler inventory;
     public Gamemaster gm;
-    public Animation animator;
+    public AnimationHandler animationHandler;
 
     public void Awake()
     {
         status = gameObject.GetComponent<Status>();
+        animationHandler = GetComponent<AnimationHandler>();
 
         if(tag == EntityTag.Player)
         {
-            animator = GetComponent<Animation>();
+            
             inventory = GetComponent<InventoryHandler>();
         }
 

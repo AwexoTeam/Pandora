@@ -14,7 +14,7 @@ public class UIHandler : MonoBehaviour
     private GameDatabase gameDatabase;
     public Sprite item_slot;
     public bool shitAd = true;
-    public string currState = "main_inventory";
+    public string currState = "";
     
     private void Start()
     {
@@ -38,7 +38,7 @@ public class UIHandler : MonoBehaviour
                 
                 entityController.inventory.AddItem(gameDatabase.Item_Database[1], 300);
                 entityController.inventory.AddItem(gameDatabase.Item_Database[1], 1800);
-                
+                entityController.inventory.AddItem(gameDatabase.Item_Database[0], 1);
                 shitAd = false;
             }
             DrawInventory();

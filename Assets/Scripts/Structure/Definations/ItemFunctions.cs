@@ -19,19 +19,15 @@ namespace ItemFunctions
             if(activator.tag == EntityTag.Player)
             {
                 AnimationClip clip;
-                gamemaster.fileDatabase.Animation_Database.TryGetValue("", out clip);
+                gamemaster.fileDatabase.Animation_Database.TryGetValue("Chop_Vertical", out clip);
 
-                if(clip != null)
+                if (clip != null && !activator.animationHandler.isPlaying())
                 {
-                    activator.animator.clip = clip;
-                    activator.animator.Play();
+                    activator.animationHandler.PlayAnimation(clip, WrapMode.Once);
                 }
-                return true;
             }
-            else
-            {
-                return false;
-            }
+            
+            return false;
         }
 
         public bool InInventoryConditionCheck() { return false; }

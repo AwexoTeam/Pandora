@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Interfaces;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -26,14 +27,18 @@ public class InventoryHandler : MonoBehaviour {
     public int inv_height { get { return 5; } }
     public ItemEntity[,] inventory;
     public GameDatabase gameDatabase;
+    public Gamemaster gameMaster;
+    public ItemEntity currItem;
+    public string itemName;
 
     public string[] inv_array;
 
     private void Start()
     {
         inventory = new ItemEntity[inv_width, inv_height];
-        gameDatabase = GameObject.FindGameObjectWithTag("ModLoader").GetComponent<GameDatabase>();
-
+        gameMaster = GameObject.FindGameObjectWithTag("ModLoader").GetComponent<Gamemaster>();
+        gameDatabase = gameMaster.gameDatabase;
+        
         for (int x = 0; x < inventory.GetLength(0); x++)
         {
             for (int y = 0; y < inventory.GetLength(1); y++)
@@ -41,18 +46,44 @@ public class InventoryHandler : MonoBehaviour {
                 inventory[x, y] = new ItemEntity();
             }
         }
+        
     }
 
     private void Update()
     {
-        List<string> list = new List<string>();
+        if (Input.GetMouseButtonUp(0))
+        {
+            Debug.Log("Clicked");
 
+            for (int x = 0; x < inventory.GetLength(0); x++)
+            {
+                for (int y = 0; y < inventory.GetLength(1); y++)
+                {
+                    ItemEntity item = inventory[x, y];
+
+                    if (item.isInitalized)
+                    {
+                        for (int i = 0; i < item.item.functions.Count; i++)
+                        {
+                            IItemFunction fnk = item.item.functions[i];
+                            fnk.Initialize(gameMaster);
+                            fnk.OnItemUsed(gameMaster.playerEntityController);
+                        }
+                    }
+                }
+            }
+        }
+
+        List<string> list = new List<string>();
+        
         for (int x = 0; x < inventory.GetLength(0); x++)
         {
             for (int y = 0; y < inventory.GetLength(1); y++)
             {
                 if (inventory[x, y] != null)
                 {
+                    
+
                     list.Add(inventory[x, y].item.registry_Name);
                 }
             }
