@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Animation))]
 public class AnimationHandler : MonoBehaviour {
 
     public Animation anim;

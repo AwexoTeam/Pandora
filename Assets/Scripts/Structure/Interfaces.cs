@@ -48,9 +48,10 @@ namespace Interfaces
     public interface IItemFunction
     {
         void Initialize(Gamemaster gm);
-        bool SelectedConditionCheck();
+        bool SelectedConditionCheck(EntityController activator);
         bool OnItemUsed(EntityController activator);
-        bool InInventoryConditionCheck();
+        bool InInventoryConditionCheck(EntityController activator);
+        void OnSelectedUse(EntityController activator);
     }
 }
     

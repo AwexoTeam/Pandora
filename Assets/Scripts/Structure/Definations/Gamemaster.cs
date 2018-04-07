@@ -5,6 +5,7 @@ using UnityEngine;
 public class Gamemaster : MonoBehaviour {
     public FileDatabase fileDatabase;
     public GameDatabase gameDatabase;
+    public UIHandler uiHandler;
     public GameObject player;
     public EntityController playerEntityController;
 
@@ -17,5 +18,6 @@ public class Gamemaster : MonoBehaviour {
 
         player = GameObject.FindGameObjectWithTag("Player");
         playerEntityController = player.GetComponent<EntityController>();
+        uiHandler = player.GetComponent<UIHandler>();
     }
 }

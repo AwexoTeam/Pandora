@@ -17,10 +17,14 @@ namespace GameDefinations
     
     public static class UI_CONSTS
     {
+        public const string INV_SLOT_NAME = "";
         public const float HOTKEY_BAR_OFFSET = 5;
-        public const float INV_SLOT_OFFSET = 49f;
-        public static Vector2 INV_SLOT_SIZE { get { return _INV_SLOT_SIZE; } }
-        private static Vector2 _INV_SLOT_SIZE = new Vector2(48,48);
+        public const float INV_SLOT_OFFSET = 4f;
+        public static Vector2Int INV_SLOT_SIZE { get { return _INV_SLOT_SIZE; } }
+        private static Vector2Int _INV_SLOT_SIZE = new Vector2Int(48,48);
+        
+        public static Vector2Int INV_SIZE { get { return _INV_SIZE; } }
+        private static Vector2Int _INV_SIZE = new Vector2Int(8,3);
     }
     
     public struct NodeInfo
@@ -88,5 +92,25 @@ namespace GameDefinations
         Axe,
         Pickaxe,
         Shovel,
+    }
+
+    public enum Stats
+    {
+        HP,
+        MP,
+        SP,
+
+        HUNGER,
+        THIRST,
+        LUST,
+
+    }
+
+    public class Ticks
+    {
+        void DoPosionTick() { }
+        void DoStunTick() { }
+        void DoCumDrenchedTick() { }
+        void DoHungerTick() { }
     }
 }

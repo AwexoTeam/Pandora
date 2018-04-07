@@ -62,6 +62,11 @@ public class GameDatabase : MonoBehaviour
         Item_Database.Add(item);
     }
 
+    public void RegisterItem(Item item)
+    {
+        RegisterItem(item.display_name, item.registry_Name, item.maxStack, item.item_stats, item.functions.ToArray());
+    }
+
     public int GetStatIndexByName(string name) { return Stat_Database.FindIndex(x => x == name); }
     public string GetStatNameByIndex(int index) { return Stat_Database[index]; }
 
